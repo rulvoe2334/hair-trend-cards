@@ -1,0 +1,100 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1712"/>
+      <stop offset="55%" stop-color="#14100c"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b98f52"/>
+      <stop offset="50%" stop-color="#eccf96"/>
+      <stop offset="100%" stop-color="#b98f52"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#3a2f22" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#14100c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#glow)"/>
+
+  <!-- decorative corner frame lines (within safe area) -->
+  <g stroke="#caa868" stroke-width="1.6" opacity="0.65">
+    <line x1="90" y1="300" x2="990" y2="300"/>
+    <line x1="90" y1="1640" x2="990" y2="1640"/>
+  </g>
+  <g fill="#caa868" opacity="0.9">
+    <circle cx="90" cy="300" r="4.5"/>
+    <circle cx="990" cy="300" r="4.5"/>
+    <circle cx="90" cy="1640" r="4.5"/>
+    <circle cx="990" cy="1640" r="4.5"/>
+  </g>
+
+  <!-- eyebrow label -->
+  <text x="540" y="360" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="400" font-size="28" letter-spacing="9" fill="#caa868">DAILY HAIR &amp; BEAUTY TREND</text>
+
+  <!-- title (two lines) -->
+  <text x="540" y="470" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="700" font-size="88" fill="#f7f1e6">今日美髮</text>
+  <text x="540" y="572" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="700" font-size="88" fill="#f7f1e6">時尚趨勢</text>
+
+  <!-- date + sub -->
+  <text x="540" y="628" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="400" font-size="28" letter-spacing="3" fill="#b9ad98">本日五大亮點 × 沙龍必看</text>
+  <text x="540" y="672" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="400" font-size="32" letter-spacing="4" fill="#d9c49a">2026 年 11 月 10 日</text>
+
+  <!-- thin divider with diamond -->
+  <g>
+    <line x1="400" y1="716" x2="500" y2="716" stroke="url(#gold)" stroke-width="2"/>
+    <rect x="533" y="709" width="14" height="14" fill="#eccf96" transform="rotate(45 540 716)"/>
+    <line x1="580" y1="716" x2="680" y2="716" stroke="url(#gold)" stroke-width="2"/>
+  </g>
+
+  <!-- Highlight 1 -->
+  <g>
+    <circle cx="150" cy="820" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="832" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="700" font-size="34" fill="#eccf96">01</text>
+    <text x="222" y="811" font-family="Noto Sans CJK TC" font-weight="700" font-size="40" fill="#f7f1e6">染髮新技法：Color Melting當紅</text>
+    <text x="222" y="860" font-family="Noto Sans CJK TC" font-weight="400" font-size="26" fill="#b9ad98">色彩融合無接縫漸層，取代傳統挑染手法</text>
+  </g>
+
+  <!-- Highlight 2 -->
+  <g>
+    <circle cx="150" cy="1000" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1012" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="700" font-size="34" fill="#eccf96">02</text>
+    <text x="222" y="991" font-family="Noto Sans CJK TC" font-weight="700" font-size="40" fill="#f7f1e6">髮色詢問冠軍：奶茶棕 × 灰霧棕</text>
+    <text x="222" y="1040" font-family="Noto Sans CJK TC" font-weight="400" font-size="26" fill="#b9ad98">低彩度耐看色，退染後依然顯氣質</text>
+  </g>
+
+  <!-- Highlight 3 -->
+  <g>
+    <circle cx="150" cy="1180" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1192" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="700" font-size="34" fill="#eccf96">03</text>
+    <text x="222" y="1171" font-family="Noto Sans CJK TC" font-weight="700" font-size="40" fill="#f7f1e6">剪髮雙冠：高層次剪 × 少年剪</text>
+    <text x="222" y="1220" font-family="Noto Sans CJK TC" font-weight="400" font-size="26" fill="#b9ad98">吹乾就有型，免整理感持續當道</text>
+  </g>
+
+  <!-- Highlight 4 -->
+  <g>
+    <circle cx="150" cy="1360" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1372" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="700" font-size="34" fill="#eccf96">04</text>
+    <text x="222" y="1351" font-family="Noto Sans CJK TC" font-weight="700" font-size="40" fill="#f7f1e6">精品圈動態：Gucci聖誕廣告上線</text>
+    <text x="222" y="1400" font-family="Noto Sans CJK TC" font-weight="400" font-size="26" fill="#b9ad98">Mariah Carey代言，節慶行銷話題延燒</text>
+  </g>
+
+  <!-- Highlight 5 -->
+  <g>
+    <circle cx="150" cy="1540" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1552" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="700" font-size="34" fill="#eccf96">05</text>
+    <text x="222" y="1531" font-family="Noto Sans CJK TC" font-weight="700" font-size="40" fill="#f7f1e6">短影音公式：變身揭曉Reels</text>
+    <text x="222" y="1580" font-family="Noto Sans CJK TC" font-weight="400" font-size="26" fill="#b9ad98">3秒鋪陳＋5秒爆點，最容易衝收藏分享</text>
+  </g>
+
+  <!-- bottom divider -->
+  <g>
+    <line x1="400" y1="1596" x2="500" y2="1596" stroke="url(#gold)" stroke-width="2"/>
+    <rect x="533" y="1589" width="14" height="14" fill="#eccf96" transform="rotate(45 540 1596)"/>
+    <line x1="580" y1="1596" x2="680" y2="1596" stroke="url(#gold)" stroke-width="2"/>
+  </g>
+
+  <text x="540" y="1630" text-anchor="middle" font-family="Noto Sans CJK TC" font-weight="400" font-size="24" letter-spacing="6" fill="#8d8172">HAIR  TREND  DAILY  REPORT</text>
+</svg>
