@@ -1,0 +1,100 @@
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1712"/>
+      <stop offset="55%" stop-color="#14100c"/>
+      <stop offset="100%" stop-color="#0a0806"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b98f52"/>
+      <stop offset="50%" stop-color="#eccf96"/>
+      <stop offset="100%" stop-color="#b98f52"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="20%" r="65%">
+      <stop offset="0%" stop-color="#3a2f22" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#14100c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#glow)"/>
+
+  <!-- decorative corner frame lines (within safe area) -->
+  <g stroke="#caa868" stroke-width="1.6" opacity="0.65">
+    <line x1="90" y1="300" x2="990" y2="300"/>
+    <line x1="90" y1="1640" x2="990" y2="1640"/>
+  </g>
+  <g fill="#caa868" opacity="0.9">
+    <circle cx="90" cy="300" r="4.5"/>
+    <circle cx="990" cy="300" r="4.5"/>
+    <circle cx="90" cy="1640" r="4.5"/>
+    <circle cx="990" cy="1640" r="4.5"/>
+  </g>
+
+  <!-- eyebrow label -->
+  <text x="540" y="356" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="28" letter-spacing="9" fill="#caa868">DAILY HAIR &amp; BEAUTY TREND</text>
+
+  <!-- title (two lines) -->
+  <text x="540" y="464" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="84" fill="#f7f1e6">今日美髮</text>
+  <text x="540" y="562" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="84" fill="#f7f1e6">時尚趨勢</text>
+
+  <!-- date + sub -->
+  <text x="540" y="622" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="27" letter-spacing="3" fill="#b9ad98">本日五大亮點 × 沙龍必看</text>
+  <text x="540" y="666" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="31" letter-spacing="4" fill="#d9c49a">2026 年 11 月 12 日</text>
+
+  <!-- thin divider with diamond -->
+  <g>
+    <line x1="400" y1="710" x2="500" y2="710" stroke="url(#gold)" stroke-width="2"/>
+    <rect x="533" y="703" width="14" height="14" fill="#eccf96" transform="rotate(45 540 710)"/>
+    <line x1="580" y1="710" x2="680" y2="710" stroke="url(#gold)" stroke-width="2"/>
+  </g>
+
+  <!-- Highlight 1 -->
+  <g>
+    <circle cx="150" cy="814" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="826" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="34" fill="#eccf96">01</text>
+    <text x="222" y="805" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="38" fill="#f7f1e6">剪髮主流：高層次剪 × 鬆弛感</text>
+    <text x="222" y="854" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="25" fill="#b9ad98">吹乾就有型，免整理感是詢問度冠軍</text>
+  </g>
+
+  <!-- Highlight 2 -->
+  <g>
+    <circle cx="150" cy="996" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1008" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="34" fill="#eccf96">02</text>
+    <text x="222" y="987" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="38" fill="#f7f1e6">髮色詢問：霧感茶棕 × 冷霧棕</text>
+    <text x="222" y="1036" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="25" fill="#b9ad98">低彩度耐看色，退染後依然顯質感</text>
+  </g>
+
+  <!-- Highlight 3 -->
+  <g>
+    <circle cx="150" cy="1178" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1190" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="34" fill="#eccf96">03</text>
+    <text x="222" y="1169" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="38" fill="#f7f1e6">年度代表色：Pantone雲舞白</text>
+    <text x="222" y="1218" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="25" fill="#b9ad98">26年來首款白色系，清透柔霧定調全年</text>
+  </g>
+
+  <!-- Highlight 4 -->
+  <g>
+    <circle cx="150" cy="1360" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1372" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="34" fill="#eccf96">04</text>
+    <text x="222" y="1351" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="38" fill="#f7f1e6">精品動態：Dior歲末動畫上線</text>
+    <text x="222" y="1400" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="25" fill="#b9ad98">Rihanna獻聲配音，節慶行銷話題延燒</text>
+  </g>
+
+  <!-- Highlight 5 -->
+  <g>
+    <circle cx="150" cy="1542" r="40" fill="none" stroke="#caa868" stroke-width="2"/>
+    <text x="150" y="1554" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="34" fill="#eccf96">05</text>
+    <text x="222" y="1533" font-family="WenQuanYi Zen Hei" font-weight="700" font-size="38" fill="#f7f1e6">短影音鐵律：變身Reveal仍稱霸</text>
+    <text x="222" y="1582" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="25" fill="#b9ad98">加字幕＋鏡前揭曉，收藏分享數更高</text>
+  </g>
+
+  <!-- bottom divider -->
+  <g>
+    <line x1="400" y1="1600" x2="500" y2="1600" stroke="url(#gold)" stroke-width="2"/>
+    <rect x="533" y="1593" width="14" height="14" fill="#eccf96" transform="rotate(45 540 1600)"/>
+    <line x1="580" y1="1600" x2="680" y2="1600" stroke="url(#gold)" stroke-width="2"/>
+  </g>
+
+  <text x="540" y="1630" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-weight="400" font-size="24" letter-spacing="6" fill="#8d8172">HAIR  TREND  DAILY  REPORT</text>
+</svg>
