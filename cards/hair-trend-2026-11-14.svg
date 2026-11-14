@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c1510"/>
+      <stop offset="55%" stop-color="#110c09"/>
+      <stop offset="100%" stop-color="#070504"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#caa454" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#caa454" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f3e2ae"/>
+      <stop offset="50%" stop-color="#d9b76a"/>
+      <stop offset="100%" stop-color="#b3863f"/>
+    </linearGradient>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b3863f" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#e9cd8e" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#b3863f" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#glow)"/>
+
+  <!-- corner frame marks (kept inside safe area) -->
+  <g stroke="#c9a662" stroke-width="2" opacity="0.7">
+    <path d="M 100 290 L 100 260 L 150 260" fill="none"/>
+    <path d="M 980 290 L 980 260 L 930 260" fill="none"/>
+    <path d="M 100 1630 L 100 1660 L 150 1660" fill="none"/>
+    <path d="M 980 1630 L 980 1660 L 930 1660" fill="none"/>
+  </g>
+
+  <!-- eyebrow label -->
+  <text x="540" y="330" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="27" letter-spacing="9" fill="#d8bb79" opacity="0.9">SALON&#160;TREND&#160;REPORT</text>
+
+  <!-- title -->
+  <text x="540" y="430" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="92" font-weight="bold" fill="url(#gold)">今日美髮時尚趨勢</text>
+
+  <!-- date -->
+  <text x="540" y="505" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="38" fill="#efe6d2" opacity="0.92" letter-spacing="2">2026年11月14日</text>
+
+  <!-- divider -->
+  <rect x="390" y="565" width="300" height="2" fill="url(#goldLine)"/>
+
+  <!-- bullets -->
+  <g font-family="WenQuanYi Zen Hei, sans-serif">
+    <!-- bullet 1 -->
+    <rect x="130" y="741" width="16" height="16" fill="#d9b76a" transform="rotate(45 138 749)"/>
+    <text x="185" y="762" font-size="44" fill="#f3e9d4">
+      <tspan fill="#e3c074" font-weight="bold">髮色趨勢　</tspan><tspan>霧感奶茶棕、玫瑰棕當道</tspan>
+    </text>
+
+    <!-- bullet 2 -->
+    <rect x="130" y="921" width="16" height="16" fill="#d9b76a" transform="rotate(45 138 929)"/>
+    <text x="185" y="942" font-size="44" fill="#f3e9d4">
+      <tspan fill="#e3c074" font-weight="bold">髮型人氣　</tspan><tspan>高層次剪、狼尾短髮</tspan>
+    </text>
+
+    <!-- bullet 3 -->
+    <rect x="130" y="1101" width="16" height="16" fill="#d9b76a" transform="rotate(45 138 1109)"/>
+    <text x="185" y="1122" font-size="44" fill="#f3e9d4">
+      <tspan fill="#e3c074" font-weight="bold">燙髮風格　</tspan><tspan>赫西燙、紋理燙鬆弛感</tspan>
+    </text>
+
+    <!-- bullet 4 -->
+    <rect x="130" y="1281" width="16" height="16" fill="#d9b76a" transform="rotate(45 138 1289)"/>
+    <text x="185" y="1302" font-size="44" fill="#f3e9d4">
+      <tspan fill="#e3c074" font-weight="bold">精品動態　</tspan><tspan>Dior秋妝幸運草系列</tspan>
+    </text>
+
+    <!-- bullet 5 -->
+    <rect x="130" y="1461" width="16" height="16" fill="#d9b76a" transform="rotate(45 138 1469)"/>
+    <text x="185" y="1482" font-size="44" fill="#f3e9d4">
+      <tspan fill="#e3c074" font-weight="bold">經營心法　</tspan><tspan>留客比拉新更重要</tspan>
+    </text>
+  </g>
+
+  <!-- footer -->
+  <rect x="440" y="1600" width="200" height="2" fill="url(#goldLine)"/>
+  <text x="540" y="1640" text-anchor="middle" font-family="WenQuanYi Zen Hei, sans-serif" font-size="26" letter-spacing="4" fill="#cbad6e" opacity="0.85">HAIR&#160;TREND&#160;DAILY</text>
+</svg>
