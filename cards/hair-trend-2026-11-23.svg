@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1613"/>
+      <stop offset="55%" stop-color="#14110e"/>
+      <stop offset="100%" stop-color="#0d0b09"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="28%" r="55%">
+      <stop offset="0%" stop-color="#5a4322" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#1a1613" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#caa454"/>
+      <stop offset="50%" stop-color="#f3dfa8"/>
+      <stop offset="100%" stop-color="#caa454"/>
+    </linearGradient>
+    <linearGradient id="goldV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8c88a"/>
+      <stop offset="100%" stop-color="#b8903f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#glow)"/>
+
+  <!-- decorative flowing hair-strand lines -->
+  <g opacity="0.22" stroke="url(#gold)" stroke-width="2" fill="none">
+    <path d="M -60 300 C 250 220, 350 420, 650 340 S 1100 260, 1180 360"/>
+    <path d="M -60 360 C 230 300, 380 480, 640 400 S 1080 320, 1180 420"/>
+    <path d="M -60 1560 C 260 1640, 380 1460, 660 1540 S 1100 1620, 1180 1540"/>
+  </g>
+
+  <!-- outer frame -->
+  <rect x="56" y="56" width="968" height="1808" fill="none" stroke="#6b5530" stroke-width="1.5" opacity="0.55"/>
+  <rect x="70" y="70" width="940" height="1780" fill="none" stroke="#caa454" stroke-width="1" opacity="0.35"/>
+
+  <!-- corner ornaments -->
+  <g stroke="url(#gold)" stroke-width="2.5" fill="none" opacity="0.9">
+    <path d="M 70 150 L 70 70 L 150 70"/>
+    <path d="M 930 70 L 1010 70 L 1010 150"/>
+    <path d="M 1010 1770 L 1010 1850 L 930 1850"/>
+    <path d="M 150 1850 L 70 1850 L 70 1770"/>
+  </g>
+
+  <!-- Top safe-zone content starts at y=250 -->
+  <text x="540" y="345" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-size="30" letter-spacing="14" fill="#caa454" opacity="0.95">SALON TREND REPORT</text>
+
+  <text x="540" y="445" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-size="86" font-weight="bold" fill="#f7efdd" letter-spacing="4">今日美髮時尚趨勢</text>
+
+  <!-- date pill -->
+  <rect x="350" y="485" width="380" height="64" rx="32" fill="none" stroke="url(#gold)" stroke-width="1.5"/>
+  <text x="540" y="528" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-size="32" fill="#e8c88a" letter-spacing="3">2026 年 11 月 23 日</text>
+
+  <!-- divider -->
+  <line x1="300" y1="600" x2="780" y2="600" stroke="url(#gold)" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="540" cy="600" r="6" fill="#f3dfa8"/>
+
+  <!-- Highlights -->
+  <g font-family="WenQuanYi Zen Hei">
+    <!-- item 1 -->
+    <circle cx="150" cy="716" r="28" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <text x="150" y="727" text-anchor="middle" font-size="30" fill="#f3dfa8">01</text>
+    <text x="210" y="700" font-size="38" fill="#faf4e6" font-weight="bold">剪髮當道：高層次×小貓短髮</text>
+    <text x="210" y="748" font-size="27" fill="#c9bda4">鬆弛感、輕盈感指名率持續攀升</text>
+
+    <!-- item 2 -->
+    <circle cx="150" cy="886" r="28" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <text x="150" y="897" text-anchor="middle" font-size="30" fill="#f3dfa8">02</text>
+    <text x="210" y="870" font-size="38" fill="#faf4e6" font-weight="bold">精品話題：Dior動畫×Gucci代言</text>
+    <text x="210" y="918" font-size="27" fill="#c9bda4">Rihanna配音新片、朴寶劍任大使</text>
+
+    <!-- item 3 -->
+    <circle cx="150" cy="1056" r="28" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <text x="150" y="1067" text-anchor="middle" font-size="30" fill="#f3dfa8">03</text>
+    <text x="210" y="1040" font-size="38" fill="#faf4e6" font-weight="bold">髮色點名榜：霧感茶棕×冷霧棕</text>
+    <text x="210" y="1088" font-size="27" fill="#c9bda4">酒紅棕回歸，光澤感低調漸層當紅</text>
+
+    <!-- item 4 -->
+    <circle cx="150" cy="1226" r="28" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <text x="210" y="1210" font-size="38" fill="#faf4e6" font-weight="bold">經營心法：會員制營收成長8%</text>
+    <text x="150" y="1237" text-anchor="middle" font-size="30" fill="#f3dfa8">04</text>
+    <text x="210" y="1258" font-size="27" fill="#c9bda4">舊客回訪率同步成長，忠誠度為王</text>
+
+    <!-- item 5 -->
+    <circle cx="150" cy="1396" r="28" fill="none" stroke="url(#gold)" stroke-width="2"/>
+    <text x="150" y="1407" text-anchor="middle" font-size="30" fill="#f3dfa8">05</text>
+    <text x="210" y="1380" font-size="38" fill="#faf4e6" font-weight="bold">短影音公式：變身對比最吸睛</text>
+    <text x="210" y="1428" font-size="27" fill="#c9bda4">Before/After Reels搭配3-5篇週發佈</text>
+  </g>
+
+  <!-- bottom divider -->
+  <line x1="300" y1="1500" x2="780" y2="1500" stroke="url(#gold)" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="540" cy="1500" r="6" fill="#f3dfa8"/>
+
+  <!-- Bottom safe-zone content ends before y=1670 -->
+  <text x="540" y="1588" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-size="30" fill="#e8c88a" letter-spacing="6">HAIR TREND DAILY</text>
+  <text x="540" y="1632" text-anchor="middle" font-family="WenQuanYi Zen Hei" font-size="24" fill="#8a7a5c" letter-spacing="2">每日為沙龍帶來最新潮流洞察</text>
+</svg>
